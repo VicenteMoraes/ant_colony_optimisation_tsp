@@ -48,10 +48,10 @@ class AntColony:
             for ant in self.ants:
                 for x in self.matrix[:-1]:
                     ant.move()
-                print(ant.totalcost, cost, ant.tabulist)
-                if 0 != ant.totalcost < cost:
+                #print(ant.totalcost, cost, ant.tabulist)
+                if 0 != ant.totalcost < cost and len(ant.tabulist) == len(self.matrix):
                     cost = ant.totalcost
-                    solution = [] + ant.tabulist
+                    solution = ant.tabulist
                 ant.updatePheromoneDelta()
                 self.updatePheromone()
         return cost, solution
