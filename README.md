@@ -6,5 +6,5 @@ Python 3 - TSP with Ant Colony Optimisation (ACO)
   2. Run main.py
   
 ## Inspiration and references
-  https://github.com/ppoffice/ant-colony-tsp
-  https://www.omicsonline.org/open-access/solving-traveling-salesmen-problem-using-ant-colony-optimizationalgorithm-2168-9679-1000260.php?aid=64963
+  1. https://github.com/ppoffice/ant-colony-tsp
+  2. https://www.omicsonline.org/open-access/solving-traveling-salesmen-problem-using-ant-colony-optimizationalgorithm-2168-9679-1000260.php?aid=64963
