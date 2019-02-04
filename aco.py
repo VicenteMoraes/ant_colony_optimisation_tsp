@@ -50,8 +50,8 @@ class AntColony:
                     ant.move()
                 #print(ant.totalcost, cost, ant.tabulist)
                 if 0 != ant.totalcost < cost and len(ant.tabulist) == len(self.matrix):
-                    cost = ant.totalcost
                     solution = ant.tabulist
+                    cost = ant.totalcost
                 ant.updatePheromoneDelta()
                 self.updatePheromone()
         return cost, solution
@@ -94,3 +94,4 @@ class Ant:
             pass
         self.totalcost += self.colony.matrix[self.pos][choice]
         self.pos = choice
+

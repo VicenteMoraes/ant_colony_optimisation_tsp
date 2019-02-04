@@ -1,5 +1,12 @@
-a b 1
-b c 5
-c a 1
-d a 3
-b d 2
+Sao_Paulo Brasilia 1003
+Sao_Paulo Rio_de_Janeiro 444
+Sao_Paulo Belo_Horizonte 591
+Brasilia Sao_Paulo 1003
+Brasilia Rio_de_Janeiro 1160
+Brasilia Belo_Horizonte 729
+Rio_de_Janeiro Sao_Paulo 444
+Rio_de_Janeiro Brasilia 1160
+Rio_de_Janeiro Belo_Horizonte 440
+Belo_Horizonte Sao_Paulo 591
+Belo_Horizonte Brasilia 729
+Belo_Horizonte Rio_de_Janeiro 440
