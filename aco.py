@@ -20,9 +20,9 @@ class Graph:
 class AntColony:
     def __init__(self, matrix, antcount, cycles):
         #Arbitrary constants
-        self.alpha = 0.7
-        self.beta = 0.7
-        self.rho = 0.7
+        self.alpha = 10
+        self.beta = 10
+        self.rho = 0.5
         self.Q = 1
         self.ants = []
         self.antcount = antcount    
